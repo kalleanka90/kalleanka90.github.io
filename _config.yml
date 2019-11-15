@@ -21,7 +21,7 @@
 title: My Blog by cb223ea
 email: cb223ea@student.lnu.se
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my first blog that i have created but i don't know what to use it yet.
+  This is my first blog that i have created but i don't know what i want to use it for yet.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Meshipeshi
