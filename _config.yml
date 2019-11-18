@@ -18,10 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Meshi's site about everything
-email: cb223ea@student.lnu.se
+title: Meshi
 description: >- # this means to ignore newlines until "baseurl:"
-  A little project that will have a variety of ontent. Don't know if i will have more specifik content later on.
+  A little project that will have a variety of content. Don't know if i will have more specific content later on.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://kalleanka90.github.io/
 
