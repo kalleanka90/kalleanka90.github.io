@@ -93,10 +93,6 @@
       display: block;
       padding: 5px 10px;
 
-      :last-child {
-        display: none;
-      }
-
       &:not(:last-child) {
         margin-right: 0;
       }
