@@ -1,0 +1,14 @@
+* TEAM */
+    Your title: Student
+    Location: Kalmar, Sweden
+
+/* THANKS */
+    Name: Nova the dog
+
+/* SITE */
+               
+    Last update: 2019/11/19
+    Language: English / Swedish
+    Standards: HTML5, CSS3
+    Components: Jekyll
+    Software: Docker

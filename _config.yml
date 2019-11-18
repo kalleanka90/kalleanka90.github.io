@@ -23,8 +23,7 @@ email: cb223ea@student.lnu.se
 description: >- # this means to ignore newlines until "baseurl:"
   A little project that will have a variety of ontent. Don't know if i will have more specifik content later on.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: kalleanka90
+url: https://kalleanka90.github.io/
 
 # Build settings
 theme: minima
