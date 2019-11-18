@@ -86,6 +86,7 @@
     input:checked ~ .trigger {
       display: block;
       padding-bottom: 5px;
+      font-size: large;
     }
 
     .page-link {
@@ -178,6 +179,9 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+  > img {
+    
+  }
 }
 
 .page-heading {
@@ -217,7 +221,7 @@
 }
 
 .post-title {
-  @include relative-font-size(2.625);
+  @include relative-font-size(1.8);
   letter-spacing: -1px;
   line-height: 1;
 
