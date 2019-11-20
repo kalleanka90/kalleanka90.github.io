@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "We played D&D"
+title:  "We played D&D and i almost killed everyone ^^'"
 date:   2019-11-16 04:56:48 -0600
 categories: examPost
 ---

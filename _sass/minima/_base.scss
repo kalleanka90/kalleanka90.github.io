@@ -24,11 +24,13 @@ body {
           font-feature-settings: "kern" 1;
   font-kerning: normal;
   display: flex;
-  min-height: 100vh;
+  min-height: 100%;
   flex-direction: column;
 }
 
-
+footer {
+  bottom: 0;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -90,7 +92,11 @@ li {
   }
 }
 
-
+.bodyWrapper {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /**
  * Headings
@@ -177,17 +183,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: 20%;
-  margin-left: 20%;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+
+ 
+  background-color: rgb(143, 90, 90);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
   }
