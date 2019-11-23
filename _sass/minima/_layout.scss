@@ -3,14 +3,11 @@
  */
 .site-header {
   border-top: 5px solid $grey-color-dark;
-  border-bottom: 2px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
-}
-
-#disqus_thread {
-  padding: 10px;
 }
 
 .site-title {
@@ -20,10 +17,10 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  padding: 10px;
+
   &,
   &:visited {
-    color: $text-color;
+    color: $grey-color-dark;
   }
 }
 
@@ -32,7 +29,7 @@
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
-    display: none;
+      display: none;
   }
 
   .menu-icon {
@@ -54,7 +51,7 @@
     top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
-    border: 1px solid $grey-color-dark;
+    border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
 
@@ -89,7 +86,6 @@
     input:checked ~ .trigger {
       display: block;
       padding-bottom: 5px;
-      font-size: large;
     }
 
     .page-link {
@@ -104,14 +100,14 @@
   }
 }
 
+
+
 /**
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-dark;
+  border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
-  background-color: $grey-color-dark;
-
 }
 
 .footer-heading {
@@ -127,7 +123,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $text-color;
+  color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -174,10 +170,13 @@
   }
 }
 
+
+
 /**
  * Page content
  */
 .page-content {
+  padding: $spacing-unit 0;
   flex: 1;
 }
 
@@ -190,7 +189,7 @@
 }
 
 .post-list {
-  margin-left: 50px;
+  margin-left: 0;
   list-style: none;
 
   > li {
@@ -200,29 +199,25 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: #000000;
+  color: $grey-color;
 }
 
 .post-link {
-  max-width: fit-content;
   display: block;
   @include relative-font-size(1.5);
 }
 
-.home {
-  padding: 10px;
-}
+
 
 /**
  * Posts
  */
 .post-header {
   margin-bottom: $spacing-unit;
-  padding: 10px;
 }
 
 .post-title {
-  @include relative-font-size(1.8);
+  @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
 
@@ -233,7 +228,7 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
-  padding: 10px;
+
   h2 {
     @include relative-font-size(2);
 
