@@ -7,7 +7,7 @@ categories: examPost
 
 * What do you think of pre-compiling your CSS?
   * To be able to split header, footer, main, body and other parts of your websites css into different .scss files makes it alot easier to track everything since Jekyll will handel the merging of the
-  .scss files into the main.css. To be able to use variables to hold a value and re-use the variable instead of typing the same code over and over feels like it's a great asset. And the @mixin, to use "functions" in css looks really cool and yet again if i would like to use the mixin on more than 1 place i just "call" the mixin instead of write the calculating code over again. The only downside i can think of at the moment is that it's new things to learn and add upon the knowledge of css which isn't reallt a downside in the long term.
+  .scss files into the main.css. To be able to use variables to hold a value and re-use the variable instead of typing the same code over and over feels like it's a great asset. And the @mixin, to use "functions" in css looks really cool and yet again if i would like to use the mixin on more than 1 place i just "call" the mixin instead of write the calculating code over again. The only downside i can think of at the moment is that it's new things to learn and add upon the knowledge of css which isn't reallt a downside in the long term. I used some variables for text-color and
 
 * What do you think of static site generators?
   * What types of projects is a SSG suited for, one type of project is a blog-site as seen here.
